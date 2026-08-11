@@ -1,0 +1,21 @@
+#header {
+    padding: 20px;
+    width: 85%;
+    margin: auto;
+}
+
+.header-content {
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav {
+    display: flex;
+    gap: 24px;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}

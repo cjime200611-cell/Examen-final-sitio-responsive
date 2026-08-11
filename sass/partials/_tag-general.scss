@@ -1,0 +1,23 @@
+html {
+    font-size: $sizeDefault;
+}
+
+body {
+    font-family: $font;
+    font-size: $sizeDefault;
+    max-width: 100%;
+    margin-inline: auto;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3rem;
+
+    span {
+        color: $color-primary;
+    }
+}
+
+span {
+    font-weight: bold;
+}
