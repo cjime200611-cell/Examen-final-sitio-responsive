@@ -1,0 +1,23 @@
+#hero {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    gap: 40px;
+}
+
+.hero-content {
+    flex-basis: 50%;
+    margin-top: 50px;
+
+    p {
+        margin-top: 16px;
+        width: 80%;
+    }
+}
+
+.hero-img {
+    flex-basis: 50%;
+    img {
+        width: 100%;
+    }
+}

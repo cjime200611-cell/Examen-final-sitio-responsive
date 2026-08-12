@@ -367,16 +367,17 @@ span {
 }
 
 .btn {
-  width: 10%;
+  width: 25%;
   border-radius: 4px;
   font-size: 1rem;
   color: white;
   background-color: #69B99D;
-  padding: 14px 32px;
+  padding: 14px 22px;
   display: flex;
   align-items: center;
   gap: 8px;
   justify-content: center;
+  margin-top: 48px;
 }
 .btn a {
   text-decoration: none;
@@ -397,11 +398,44 @@ span {
 
 #nav {
   display: flex;
-  gap: 24px;
+  gap: 50px;
 }
 #nav a {
   text-decoration: none;
   color: black;
+}
+
+#hero {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  gap: 40px;
+}
+
+.hero-content {
+  flex-basis: 50%;
+  margin-top: 50px;
+}
+.hero-content p {
+  margin-top: 16px;
+  width: 80%;
+}
+
+.hero-img {
+  flex-basis: 50%;
+}
+.hero-img img {
+  width: 100%;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+}
+
+#decoration {
+  display: flex;
+  justify-content: flex-end;
 }
 
 /*# sourceMappingURL=styles.css.map */
